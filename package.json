@@ -18,7 +18,6 @@
     "gatsby-plugin-offline": "^4.13.0",
     "gatsby-plugin-react-helmet": "^4.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
-    "gatsby-plugin-typescript": "^3.13.0",
     "gatsby-remark-copy-linked-files": "^4.10.0",
     "gatsby-remark-images": "^5.10.0",
     "gatsby-remark-prismjs": "^5.10.0",
@@ -36,8 +35,7 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
-    "prettier": "2.3.2",
-    "typescript": "^4.4.2"
+    "prettier": "2.3.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -51,9 +49,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop:gatsby": "gatsby develop",
-    "develop:type": "tsc --watch",
-    "develop": "npm-run-all --parallel develop:gatsby develop:type",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
